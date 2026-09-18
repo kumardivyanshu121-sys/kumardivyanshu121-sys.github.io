@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Divyanshu Kumar Tiwari | Portfolio</title>
+  <title>Divyanshu Tiwari | IT Program Manager</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', sans-serif; }
   </style>
@@ -15,186 +15,261 @@
 <body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-blue-600 selection:text-white">
 
   <!-- Navigation -->
-  <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
-    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-      <span class="font-bold text-lg tracking-tight text-white">Divyanshu<span class="text-blue-500">.</span></span>
-      <div class="flex space-x-6 text-sm font-medium text-slate-300">
-        <a href="#about" class="hover:text-blue-400 transition">About</a>
-        <a href="#career" class="hover:text-blue-400 transition">Career</a>
-        <a href="#documents" class="hover:text-blue-400 transition">Documents</a>
-        <a href="#interests" class="hover:text-blue-400 transition">Interests</a>
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/85 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#about" class="font-bold text-lg tracking-tight text-white flex items-center gap-1">
+        Divyanshu<span class="text-blue-500">.</span>
+      </a>
+      <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-blue-400 transition">Executive Summary</a>
+        <a href="#programs" class="hover:text-blue-400 transition">Programs Delivered</a>
+        <a href="#resumes" class="hover:text-blue-400 transition">Resumes</a>
+        <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
       </div>
+      <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition flex items-center gap-2 shadow-lg shadow-blue-500/20">
+        <span>☁️</span> Access Drive Folder
+      </a>
     </div>
   </nav>
 
-  <main class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-24">
 
-    <!-- 1. Hero / Introduction -->
-    <section id="about" class="pt-8 flex flex-col-reverse md:flex-row items-center gap-10">
+    <!-- 1. Hero / Program Manager Profile -->
+    <section id="about" class="pt-6 flex flex-col-reverse md:flex-row items-center gap-10">
       <div class="flex-1 space-y-6">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-xs font-semibold tracking-wide">
-          Available for Opportunities
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          IT Program Management & Enterprise Delivery
         </div>
         <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Divyanshu Kumar Tiwari</span>
+          Divyanshu Tiwari
         </h1>
-        <p class="text-lg text-slate-400 leading-relaxed">
-          IT Professional specializing in enterprise infrastructure, asset lifecycle management, compliance audits, and workflow automation. Focused on delivering reliable systems and streamlined IT operations.
+        <p class="text-xl text-blue-400 font-medium">
+          IT Program Manager
+        </p>
+        <p class="text-slate-300 leading-relaxed text-sm md:text-base max-w-2xl">
+          6+ years orchestrating mission-critical enterprise programs, GovTech infrastructure (Ayushman Bharat), and cross-functional M&A integrations. Partnering directly with CTOs and CFOs to deliver AI-driven workflow transformations, govern CAPEX/OPEX budgets, and maintain a flawless zero-audit-failure compliance record (ISO 27001, SOC 2 Type 2).
         </p>
         <div class="flex flex-wrap gap-4 pt-2">
-          <a href="#documents" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition shadow-lg shadow-blue-600/20">
-            Download Resume
+          <a href="#resumes" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition shadow-lg shadow-blue-600/20">
+            View Targeted Resumes
           </a>
-          <a href="#career" class="px-5 py-2.5 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-medium text-sm transition">
-            View Career
+          <a href="#programs" class="px-5 py-2.5 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-medium text-sm transition bg-slate-900/50">
+            Explore Program Portfolio
           </a>
         </div>
       </div>
-      <div class="w-44 h-44 md:w-56 md:h-56 rounded-2xl overflow-hidden border-2 border-slate-800 shadow-2xl bg-slate-900 flex-shrink-0">
-        <!-- Replace profile.jpg with your headshot image filename -->
-        <img src="profile.jpg" alt="Divyanshu Kumar Tiwari" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80'" />
+      <!-- UPDATED IMAGE SRC to match your exact file name -->
+      <div class="w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden border-2 border-slate-800 shadow-2xl bg-slate-900 flex-shrink-0 relative">
+        <img 
+          src="Div Pic_IMG_1607084609113.jpg" 
+          alt="Divyanshu Tiwari" 
+          class="w-full h-full object-cover object-top" 
+          onerror="this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&auto=format&fit=crop&q=80'"
+        />
       </div>
     </section>
 
-    <!-- 2. Career & Key Milestones -->
-    <section id="career" class="space-y-8">
+    <!-- 2. Targeted Resumes (Multiple Profiles) -->
+    <section id="resumes" class="space-y-6 bg-slate-900/30 p-8 rounded-2xl border border-slate-800">
       <div>
-        <h2 class="text-2xl font-bold tracking-tight text-white">Career & Key Projects</h2>
-        <p class="text-slate-400 text-sm mt-1">Milestones, system setups, and operational management.</p>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Targeted Professional Profiles</h2>
+        <p class="text-slate-400 text-sm mt-1">Select the functional resume aligned with your organizational requirements.</p>
       </div>
 
-      <div class="grid gap-6">
-        <!-- Card 1 -->
-        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/60 hover:border-slate-700 transition">
-          <div class="flex flex-col md:flex-row md:items-center justify-between gap-1 mb-3">
-            <h3 class="text-lg font-semibold text-white">IT Infrastructure, Audits & Compliance</h3>
-            <span class="text-xs font-mono text-slate-400">Enterprise Operations</span>
-          </div>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Managing quarterly internal compliance audits, end-to-end IT asset operations, and ensuring strict governance across infrastructure frameworks.
-          </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Internal Audits</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Compliance</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Governance</span>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/60 hover:border-slate-700 transition">
-          <div class="flex flex-col md:flex-row md:items-center justify-between gap-1 mb-3">
-            <h3 class="text-lg font-semibold text-white">Enterprise Asset Implementation & Migration</h3>
-            <span class="text-xs font-mono text-slate-400">Migration Project</span>
-          </div>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Led and executed high-volume asset data migration projects across modern IT service platforms, ensuring zero data loss and automated lifecycle tracking.
-          </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Zoho</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Asset Lifecycle</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Data Validation</span>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/60 hover:border-slate-700 transition">
-          <div class="flex flex-col md:flex-row md:items-center justify-between gap-1 mb-3">
-            <h3 class="text-lg font-semibold text-white">Automation & Document Processing</h3>
-            <span class="text-xs font-mono text-slate-400">Workflow Optimization</span>
-          </div>
-          <p class="text-slate-400 text-sm leading-relaxed mb-4">
-            Implemented document-intelligence scripts and email pipeline tracking to eliminate manual verification steps and automate record keeping.
-          </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Document AI</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Process Automation</span>
-            <span class="px-2.5 py-1 text-xs rounded-md bg-slate-800 text-slate-300 font-medium">Workflow Scripts</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. Documents & Verified PDFs -->
-    <section id="documents" class="space-y-8">
-      <div>
-        <h2 class="text-2xl font-bold tracking-tight text-white">Documents & Resources</h2>
-        <p class="text-slate-400 text-sm mt-1">Downloadable verification documents, resume, and credentials.</p>
-      </div>
-
-      <div class="grid sm:grid-cols-2 gap-4">
-        <!-- Document Card 1 -->
-        <div class="p-5 rounded-xl border border-slate-800 bg-slate-900/40 flex items-center justify-between hover:border-slate-700 transition">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 font-bold text-xs">
-              PDF
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Resume 1: Program Manager -->
+        <div class="p-6 rounded-xl border border-slate-700 bg-slate-800/50 hover:border-blue-500 transition flex flex-col justify-between group">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-xs mb-4">
+              PM
             </div>
+            <h3 class="text-lg font-semibold text-white">IT Program Manager</h3>
+            <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+              Tailored for multi-stakeholder governance, M&A integrations, vendor ecosystems, and CAPEX/OPEX IT budgeting.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700 flex items-center justify-between">
+            <span class="text-xs text-slate-500 font-medium">Primary Track</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-blue-400 group-hover:text-blue-300 transition flex items-center gap-1">
+              Open Drive <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Resume 2: IT GRC / Compliance -->
+        <div class="p-6 rounded-xl border border-slate-700 bg-slate-800/50 hover:border-emerald-500 transition flex flex-col justify-between group">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-xs mb-4">
+              GRC
+            </div>
+            <h3 class="text-lg font-semibold text-white">IT GRC & Audit Lead</h3>
+            <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+              Emphasizes ISO 27001, SOC 2 Type 2 compliance, access auditing, and Zero-Audit-Failure governance architectures.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700 flex items-center justify-between">
+            <span class="text-xs text-slate-500 font-medium">Compliance Track</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-emerald-400 group-hover:text-emerald-300 transition flex items-center gap-1">
+              Open Drive <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Resume 3: AI / Automation -->
+        <div class="p-6 rounded-xl border border-slate-700 bg-slate-800/50 hover:border-indigo-500 transition flex flex-col justify-between group">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 font-bold text-xs mb-4">
+              AI
+            </div>
+            <h3 class="text-lg font-semibold text-white">IT Automation Specialist</h3>
+            <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+              Focused on LLM integrations, automated data pipelines, Looker Studio observability, and process elimination.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700 flex items-center justify-between">
+            <span class="text-xs text-slate-500 font-medium">Technical Track</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-indigo-400 group-hover:text-indigo-300 transition flex items-center gap-1">
+              Open Drive <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Key Programs & Attached Resources -->
+    <section id="programs" class="space-y-8">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Programs Delivered & Verified Artifacts</h2>
+        <p class="text-slate-400 text-sm mt-1">High-stakes enterprise delivery, infrastructure transformations, and supporting documents.</p>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Program 1: M&A -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition space-y-4">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
             <div>
-              <div class="font-medium text-slate-200 text-sm">Professional CV / Resume</div>
-              <div class="text-xs text-slate-500">Updated • PDF format</div>
+              <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider">Enterprise M&A Integration</span>
+              <h3 class="text-xl font-bold text-white mt-1">Medvantage | Raksha TPA | Paramount Consolidation</h3>
             </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">Core Program Lead</span>
           </div>
-          <a href="resume.pdf" download class="text-xs font-semibold text-blue-400 hover:text-blue-300 transition px-3 py-1.5 rounded-md bg-slate-800 border border-slate-700">
-            Download
-          </a>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Directed the end-to-end technical consolidation across three prominent healthcare organizations. Orchestrated enterprise vendor migrations, multi-node network unification, and post-merger compliance alignment with zero operational downtime.
+          </p>
+          <!-- Attachments -->
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap items-center gap-3">
+            <span class="text-xs text-slate-500 font-semibold uppercase tracking-wide mr-2">Attached Artifacts:</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              📄 Integration Charter
+            </a>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              📊 Network Architecture Blueprint
+            </a>
+          </div>
         </div>
 
-        <!-- Document Card 2 -->
-        <div class="p-5 rounded-xl border border-slate-800 bg-slate-900/40 flex items-center justify-between hover:border-slate-700 transition">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold text-xs">
-              DOC
-            </div>
+        <!-- Program 2: GovTech Ayushman Bharat -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition space-y-4">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
             <div>
-              <div class="font-medium text-slate-200 text-sm">Certifications & Credentials</div>
-              <div class="text-xs text-slate-500">Verified • PDF format</div>
+              <span class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">National Public Health Infrastructure</span>
+              <h3 class="text-xl font-bold text-white mt-1">Ayushman Bharat (5 GovTech Schemes)</h3>
             </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">100% SLA Uptime</span>
           </div>
-          <a href="credentials.pdf" download class="text-xs font-semibold text-blue-400 hover:text-blue-300 transition px-3 py-1.5 rounded-md bg-slate-800 border border-slate-700">
-            Download
-          </a>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Governed production infrastructure readiness and mission-critical application support across 5 national health schemes. Ensured rigorous multi-node hardware deployment under strict government data security compliance frameworks.
+          </p>
+          <!-- Attachments -->
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap items-center gap-3">
+            <span class="text-xs text-slate-500 font-semibold uppercase tracking-wide mr-2">Attached Artifacts:</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              📜 GovTech Compliance Report
+            </a>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              📂 Infrastructure Audit Log
+            </a>
+          </div>
+        </div>
+
+        <!-- Program 3: AI Workflow Automation -->
+        <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition space-y-4">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+            <div>
+              <span class="text-xs font-semibold text-indigo-400 uppercase tracking-wider">Intelligent Process Engineering</span>
+              <h3 class="text-xl font-bold text-white mt-1">AI-Powered Procurement & Invoice Automation</h3>
+            </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded">CxO Initiative</span>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Collaborated directly with CTO and CFO to engineer multi-agent LLM systems (GPT, Claude, Gemini). Successfully automated vendor invoice ingestion, dynamic finance routing, and built Looker Studio executive reporting dashboards, eliminating 90% of manual data entry.
+          </p>
+          <!-- Attachments -->
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap items-center gap-3">
+            <span class="text-xs text-slate-500 font-semibold uppercase tracking-wide mr-2">Attached Artifacts:</span>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              💻 LLM Pipeline Architecture
+            </a>
+            <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition shadow-sm">
+              📈 CXO Dashboard Visuals
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Interests & Pursuits -->
-    <section id="interests" class="space-y-8">
+    <!-- 4. Executive Contact & Verified Coordinates -->
+    <section id="contact" class="space-y-6 pt-6 border-t border-slate-900">
       <div>
-        <h2 class="text-2xl font-bold tracking-tight text-white">Interests & Pursuits</h2>
-        <p class="text-slate-400 text-sm mt-1">Analytical studies, tech research, and creative curiosity.</p>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Contact & Verification Coordinates</h2>
+        <p class="text-slate-400 text-sm mt-1">Direct touchpoints for program leadership discussions or role opportunities.</p>
       </div>
 
-      <div class="grid sm:grid-cols-3 gap-6">
-        <div class="p-5 rounded-xl border border-slate-800 bg-slate-900/30">
-          <div class="text-2xl mb-2">⚡</div>
-          <h3 class="font-semibold text-white mb-2">Emerging Tech & AI</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Exploring generative AI scripts, image/video model pipelines, and intelligent workflow automation.
-          </p>
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <!-- Email -->
+        <a href="mailto:kumardivyanshu121@gmail.com" class="p-4 rounded-xl border border-slate-800 bg-slate-900/60 hover:border-slate-700 transition flex flex-col justify-center">
+          <div class="text-[10px] text-slate-500 font-bold tracking-widest uppercase mb-1">Email Address</div>
+          <div class="text-sm font-semibold text-white truncate hover:text-blue-400 transition">kumardivyanshu121@gmail.com</div>
+        </a>
+
+        <!-- Phone -->
+        <a href="tel:+918521943844" class="p-4 rounded-xl border border-slate-800 bg-slate-900/60 hover:border-slate-700 transition flex flex-col justify-center">
+          <div class="text-[10px] text-slate-500 font-bold tracking-widest uppercase mb-1">Direct Phone</div>
+          <div class="text-sm font-semibold text-white hover:text-blue-400 transition">+91 85219 43844</div>
+        </a>
+
+        <!-- Location -->
+        <div class="p-4 rounded-xl border border-slate-800 bg-slate-900/60 flex flex-col justify-center">
+          <div class="text-[10px] text-slate-500 font-bold tracking-widest uppercase mb-1">Location</div>
+          <div class="text-sm font-semibold text-white">Bengaluru, Karnataka</div>
         </div>
 
-        <div class="p-5 rounded-xl border border-slate-800 bg-slate-900/30">
-          <div class="text-2xl mb-2">🚗</div>
-          <h3 class="font-semibold text-white mb-2">Automotive Engineering</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Following modern EV architectures, next-gen safety platforms, and automotive system dynamics.
-          </p>
-        </div>
-
-        <div class="p-5 rounded-xl border border-slate-800 bg-slate-900/30">
-          <div class="text-2xl mb-2">📊</div>
-          <h3 class="font-semibold text-white mb-2">Analytical Systems</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">
-            Examining complex pattern recognition, planetary transit cycles, and structural data mapping.
-          </p>
-        </div>
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/divyanshu-kumar-41810a1b3" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl border border-blue-900/40 bg-blue-950/20 hover:border-blue-700 transition flex flex-col justify-center group">
+          <div class="text-[10px] text-blue-400 font-bold tracking-widest uppercase mb-1">Professional Network</div>
+          <div class="text-sm font-semibold text-white flex items-center justify-between">
+            <span class="group-hover:text-blue-400 transition">LinkedIn Profile</span>
+            <span class="text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </a>
       </div>
     </section>
 
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-900 mt-24 py-8 text-center text-xs text-slate-500">
-    <p>© 2026 Divyanshu Kumar Tiwari. Hosted free on GitHub Pages.</p>
+  <footer class="border-t border-slate-900 mt-20 py-8 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© 2026 Divyanshu Tiwari. Program Management Portfolio.</p>
+      <div class="flex items-center space-x-4 text-slate-400">
+        <a href="https://linkedin.com/in/divyanshu-kumar-41810a1b3" target="_blank" class="hover:text-white transition">LinkedIn</a>
+        <span>•</span>
+        <a href="https://drive.google.com/drive/folders/1sihRh9cX3pO3xeUTAEjTyJS6Nb-qEexu?usp=sharing" target="_blank" class="hover:text-white transition">Google Drive Archive</a>
+        <span>•</span>
+        <a href="mailto:kumardivyanshu121@gmail.com" class="hover:text-white transition">Email</a>
+      </div>
+    </div>
   </footer>
 
 </body>
